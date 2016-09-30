@@ -21,7 +21,7 @@ public class LandingSteps extends DriverFactory{
         new LandingPage(driver).logout();
     }
 
-    @When("^accept the alert that displayed$")
+    @When("^accept the alert that is displayed$")
     public void accept_the_alert_that_displayed() throws Throwable {
             Alert alert = driver.switchTo().alert();
             alert.accept();

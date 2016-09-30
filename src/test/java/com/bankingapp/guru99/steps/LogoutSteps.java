@@ -17,8 +17,8 @@ public class LogoutSteps extends DriverFactory{
     @Autowired
     private LandingPage landingPage;
 
-    @Given("^logged into banking app$")
-    public void logged_into_banking_app() throws Throwable {
+    @Given("^I logged into banking app$")
+    public void i_logged_into_banking_app() throws Throwable {
         new LoginPage(driver).loginToBankingApp("mngr49609", "urAsuve");
     }
 }
